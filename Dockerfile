@@ -7,6 +7,6 @@ FROM nginx:alpine
 # COPY ./html /usr/share/nginx/html
 
 # 暴露 80 端口
-EXPOSE 80
+EXPOSE 88
 
 CMD ["nginx", "-g", "daemon off;"]
